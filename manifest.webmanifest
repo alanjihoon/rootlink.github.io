@@ -1,0 +1,10 @@
+{
+  "name": "RootLink",
+  "short_name": "RootLink",
+  "description": "문화 기록과 연결을 위한 RootLink",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#167c70",
+  "orientation": "any"
+}
