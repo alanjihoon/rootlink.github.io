@@ -43,6 +43,7 @@
   dictionary.set('예: 우리 가족의 봄 명절 음식','e.g. Our family’s spring holiday dish');
   dictionary.set('예: 알레포','e.g. Aleppo');
   dictionary.set('이 문화가 우리 가족에게 어떤 의미인지 알려주세요.','Tell us what this culture means to your family.');
+  dictionary.set('나의 고향 이야기','My story from home'); dictionary.set('My Roots 문화 영상','My Roots cultural video'); dictionary.set('이 브라우저에서는 영상을 재생할 수 없습니다.','This browser cannot play the video.');
   dictionary.set('시리아','Syria'); dictionary.set('대한민국','South Korea'); dictionary.set('우크라이나','Ukraine'); dictionary.set('아프가니스탄','Afghanistan');
   dictionary.set('아랍어','Arabic'); dictionary.set('한국어','Korean'); dictionary.set('우크라이나어','Ukrainian'); dictionary.set('영어','English'); dictionary.set('가족 이야기','Family story');
   translate(document.body);
