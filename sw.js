@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rootlink-ipad-v2';
+const CACHE_NAME = 'rootlink-ipad-v3';
 const APP_FILES = ['./', './index.html', './i18n.js', './manifest.webmanifest'];
 
 self.addEventListener('install', event => {

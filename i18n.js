@@ -4,11 +4,9 @@
   const switcher = document.querySelector('#langSwitch');
   switcher.textContent = language === 'en' ? 'KO' : 'EN';
   switcher.setAttribute('aria-label', language === 'en' ? '한국어로 전환' : 'Switch to English');
-  switcher.onclick = () => {
-    const next = language === 'en' ? 'ko' : 'en';
-    localStorage.setItem('rootlinkLanguage', next);
-    const url = new URL(location.href); url.searchParams.set('lang', next); location.href = url;
-  };
+  const next = language === 'en' ? 'ko' : 'en';
+  switcher.href = `?lang=${next}`;
+  switcher.onclick = () => localStorage.setItem('rootlinkLanguage', next);
   if (language !== 'en') return;
 
   document.documentElement.lang = 'en';
