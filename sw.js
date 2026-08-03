@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rootlink-ipad-v5';
+const CACHE_NAME = 'rootlink-ipad-v6';
 const APP_FILES = ['./', './index.html', './i18n.js?v=4', './manifest.webmanifest', './KakaoTalk_20260803_111816264.mp4', './KakaoTalk_20260803_113801226.mp4'];
 
 self.addEventListener('install', event => {

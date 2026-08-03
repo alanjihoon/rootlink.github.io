@@ -46,6 +46,7 @@
   dictionary.set('나의 고향 이야기','My story from home'); dictionary.set('My Roots 문화 영상','My Roots cultural video'); dictionary.set('이 브라우저에서는 영상을 재생할 수 없습니다.','This browser cannot play the video.');
   dictionary.set('시리아','Syria'); dictionary.set('대한민국','South Korea'); dictionary.set('우크라이나','Ukraine'); dictionary.set('아프가니스탄','Afghanistan');
   dictionary.set('아랍어','Arabic'); dictionary.set('한국어','Korean'); dictionary.set('우크라이나어','Ukrainian'); dictionary.set('영어','English'); dictionary.set('가족 이야기','Family story');
+  dictionary.set('육전, 삼색전','Yukjeon and three-color jeon');
   translate(document.body);
   new MutationObserver(records => records.forEach(record => record.addedNodes.forEach(translate))).observe(document.body, {childList:true, subtree:true});
 })();
