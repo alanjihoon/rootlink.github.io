@@ -48,6 +48,10 @@
   dictionary.set('아랍어','Arabic'); dictionary.set('한국어','Korean'); dictionary.set('우크라이나어','Ukrainian'); dictionary.set('영어','English'); dictionary.set('가족 이야기','Family story');
   dictionary.set('육전, 삼색전','Yukjeon and three-color jeon');
   dictionary.set('카드 인식','Scan card'); dictionary.set('문화 카드 인식','Cultural card scanner');
+  dictionary.set('▣ 문화 학습 카드 인식','▣ Scan learning card'); dictionary.set('문화 학습 카드 인식','Cultural learning card scanner');
+  dictionary.set('음식·의상·음악 카드의 글자를 읽고 관련 학습 자료를 보여줍니다.','Read a food, clothing, or music card to see related learning material.');
+  dictionary.set('문화 학습 카드 인식 완료','Cultural learning card recognized');
+  dictionary.set('사용자가 화면에서 ‘문화 기록하기’를 선택하면 RootLink는 촬영 동의와 공개 범위를 확인한 뒤 Culture Record 모드로 전환합니다.','When the user selects Record Culture on the screen, RootLink confirms recording consent and the sharing scope, then enters Culture Record mode.');
   dictionary.set('비빔밥·한복·국악 글자가 적힌 카드를 카메라에 보여주세요.','Show a card labeled Bibimbap, Hanbok, or Gugak to the camera.');
   dictionary.set('글자를 이 안에 크게 보여주세요','Hold the card text inside this guide'); dictionary.set('문화 카드 인식 완료','Cultural card recognized');
   dictionary.set('카메라를 준비하고 있습니다…','Preparing the camera…'); dictionary.set('한글 문자 인식기를 준비하고 있습니다…','Preparing Korean text recognition…');
