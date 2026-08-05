@@ -52,7 +52,8 @@
   dictionary.set('음식·의상·음악 카드의 글자를 읽고 관련 학습 자료를 보여줍니다.','Read a food, clothing, or music card to see related learning material.');
   dictionary.set('BIBIMBAP·HANBOK·GUGAK 영어 카드를 보여주세요.','Show a card labeled BIBIMBAP, HANBOK, or GUGAK.');
   dictionary.set('H(한복)·I(비빔밥)·U(국악) 카드를 보여주세요.','Show an H (Hanbok), I (Bibimbap), or U (Gugak) card.');
-  dictionary.set('H·I·U 또는 FOOD 카드를 보여주세요.','Show an H, I, U, or FOOD card.'); dictionary.set('다양한 음식 문화','Various food cultures');
+  dictionary.set('다양한 음식 문화','Various food cultures');
+  dictionary.set('F(음식)·H(한복)·I(비빔밥)·U(국악) 카드를 보여주세요.','Show an F (Food), H (Hanbok), I (Bibimbap), or U (Gugak) card.');
   dictionary.set('문화 학습 카드 인식 완료','Cultural learning card recognized');
   dictionary.set('사용자가 화면에서 ‘문화 기록하기’를 선택하면 RootLink는 촬영 동의와 공개 범위를 확인한 뒤 Culture Record 모드로 전환합니다.','When the user selects Record Culture on the screen, RootLink confirms recording consent and the sharing scope, then enters Culture Record mode.');
   dictionary.set('비빔밥·한복·국악 글자가 적힌 카드를 카메라에 보여주세요.','Show a card labeled Bibimbap, Hanbok, or Gugak to the camera.');
