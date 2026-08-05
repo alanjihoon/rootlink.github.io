@@ -47,9 +47,10 @@
   dictionary.set('시리아','Syria'); dictionary.set('대한민국','South Korea'); dictionary.set('우크라이나','Ukraine'); dictionary.set('아프가니스탄','Afghanistan');
   dictionary.set('아랍어','Arabic'); dictionary.set('한국어','Korean'); dictionary.set('우크라이나어','Ukrainian'); dictionary.set('영어','English'); dictionary.set('가족 이야기','Family story');
   dictionary.set('육전, 삼색전','Yukjeon and three-color jeon');
-  dictionary.set('카드 인식','Scan card'); dictionary.set('문화 기록 카드 인식','Culture record card scanner');
-  dictionary.set('카드를 가이드 안에 반듯하게 보여주세요.','Hold a card straight inside the guide.');
-  dictionary.set('카메라를 준비하고 있습니다…','Preparing the camera…'); dictionary.set('가이드 안에 카드 모양을 맞춰주세요.','Align the card shape inside the guide.');
+  dictionary.set('카드 인식','Scan card'); dictionary.set('문화 카드 인식','Cultural card scanner');
+  dictionary.set('비빔밥·한복·국악 글자가 적힌 카드를 카메라에 보여주세요.','Show a card labeled Bibimbap, Hanbok, or Gugak to the camera.');
+  dictionary.set('글자를 이 안에 크게 보여주세요','Hold the card text inside this guide'); dictionary.set('문화 카드 인식 완료','Cultural card recognized');
+  dictionary.set('카메라를 준비하고 있습니다…','Preparing the camera…'); dictionary.set('한글 문자 인식기를 준비하고 있습니다…','Preparing Korean text recognition…');
   translate(document.body);
   new MutationObserver(records => records.forEach(record => record.addedNodes.forEach(translate))).observe(document.body, {childList:true, subtree:true});
 })();
