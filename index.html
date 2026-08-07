@@ -109,5 +109,5 @@
   const modal=document.querySelector('#audience');function applyMode(key,first=false){const m=modes[key]||modes.adult;document.body.classList.remove('mode-child','mode-senior');if(key==='child')document.body.classList.add('mode-child');if(key==='senior')document.body.classList.add('mode-senior');document.querySelector('#modeSwitch span').textContent=m.icon;document.querySelector('#modeName').textContent=m.name;document.querySelector('#personalIcon').textContent=m.icon;document.querySelector('#personalTitle').textContent=m.title;document.querySelector('#personalText').textContent=m.text;document.querySelectorAll('.nav button').forEach(b=>b.style.display=m.nav.includes(b.textContent)?'':'none');localStorage.setItem('rootlinkMode',key);modal.classList.remove('open');if(!first)toast(`${m.name}로 변경했습니다`,m.text)}
   document.querySelector('#modeSwitch').onclick=()=>modal.classList.add('open');document.querySelectorAll('.mode-card').forEach(b=>b.onclick=()=>applyMode(b.dataset.mode));modal.onclick=e=>{if(e.target===modal&&localStorage.getItem('rootlinkMode'))modal.classList.remove('open')};const savedMode=localStorage.getItem('rootlinkMode');if(savedMode)applyMode(savedMode,true);else modal.classList.add('open');
 </script>
-<script src="i18n.js?v=4"></script>
+<script src="i18n.js?v=5"></script>
 </body></html>
