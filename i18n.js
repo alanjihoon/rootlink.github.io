@@ -60,6 +60,12 @@
   dictionary.set('비빔밥·한복·국악 글자가 적힌 카드를 카메라에 보여주세요.','Show a card labeled Bibimbap, Hanbok, or Gugak to the camera.');
   dictionary.set('글자를 이 안에 크게 보여주세요','Hold the card text inside this guide'); dictionary.set('문화 카드 인식 완료','Cultural card recognized');
   dictionary.set('카메라를 준비하고 있습니다…','Preparing the camera…'); dictionary.set('한글 문자 인식기를 준비하고 있습니다…','Preparing Korean text recognition…');
+  dictionary.set('새로운 공동체에서 필요한 일상 표현을 한국어와 영어로 번역합니다.','Translate everyday expressions needed in a new community between Korean and English.');
+  dictionary.set('번역 시작하기','Start translating'); dictionary.set('일상 언어 번역','Everyday language translation');
+  dictionary.set('자주 쓰는 표현을 선택하거나 직접 입력해 한국어와 영어 표현을 확인하세요.','Choose a common phrase or type your own to check it in Korean and English.');
+  dictionary.set('어디로 가야 하나요?','Where should I go?'); dictionary.set('천천히 말해 주세요.','Please speak slowly.'); dictionary.set('도움이 필요합니다.','I need help.');
+  dictionary.set('번역할 표현을 입력하세요','Enter a phrase to translate'); dictionary.set('번역 결과','Translation result'); dictionary.set('번역하기','Translate');
+  dictionary.set('표현을 입력한 뒤 번역 버튼을 눌러주세요.','Enter a phrase, then select Translate.');
   translate(document.body);
   new MutationObserver(records => records.forEach(record => record.addedNodes.forEach(translate))).observe(document.body, {childList:true, subtree:true});
 })();
